@@ -1,8 +1,7 @@
 body {
-  font-family: sans-serif;
-  background-color: blanchedalmond;
+  background-color: bisque;
   margin: 0;
-  padding: 20px;
+  padding: 20;
 }
 
 h1 {
@@ -17,43 +16,85 @@ h1 {
   gap: 15px;
 }
 
-.card {
+.cardPost {
   width: 180px;
-background-color: rgb(220, 253, 248);
+  background-color: #f5ffa8;
   border-radius: 8px;
   padding: 12px;
   text-align: center;
 }
 
-.cardtodo {
-    width: 180px;
-background-color: rgb(255, 213, 0);
+.cardComment {
+  width: 180px;
+  background-color: #7dff73;
   border-radius: 8px;
   padding: 12px;
-  text-align: center;  
+  text-align: center;
 }
 
-.cardalbum {
-    width: 180px;
-background-color: rgb(249, 3, 233);
+.cardAlbum {
+  width: 180px;
+  background-color: #59e8c9;
   border-radius: 8px;
   padding: 12px;
-  text-align: center;  
+  text-align: center;
 }
 
-.card img {
+.cardPhoto {
+  width: 180px;
+  background-color: #ff95ec;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.cardTodo {
+  width: 180px;
+  background-color: #ffafaf;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.cardUser {
+  width: 180px;
+  background-color: #636186;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.cardPost img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.cardtodo img {
+.cardComment img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.cardalbum img {
+.cardAlbum img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cardPhoto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cardTodo img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cardUser img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
